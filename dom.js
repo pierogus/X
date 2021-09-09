@@ -51,12 +51,7 @@ newItem.innerHTML = /* html */`
 		<div style="position: absolute; margin-left: 38px;">No same person twice</div>
 		
 	</div>
-	<div style="position: absolute;width: 200px;right: 260px;top: 0px;color: #9CF;font-size: 1.1em;">
-		<strong id="twicestat">0</strong> Seen more than once<br>
-		<strong id="banstat">0</strong> Banned<br>
-		<strong id="skipstat">0</strong> Skipped because ip ban<br>
-	</div>	
-	`;
+	;
 $("header").appendChild(newItem);
 $("onlinecount").style.position = "absolute";
 $("onlinecount").style.bottom = "18px";
